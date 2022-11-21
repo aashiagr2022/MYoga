@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="56dp"
+        android:padding="1dp"
+        android:src="@drawable/levelimage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="257dp"
+        android:text="Week 4"
+        android:textColor="#070707"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Image" />
+
+    <Button
+        android:id="@+id/day1"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="136dp"
+        android:text="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Image" />
+
+    <Button
+        android:id="@+id/day4"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="56dp"
+        android:text="4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Image" />
+
+    <Button
+        android:id="@+id/day2"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="136dp"
+        android:text="2"
+        app:layout_constraintStart_toEndOf="@+id/day1"
+        app:layout_constraintTop_toBottomOf="@+id/Image" />
+
+    <Button
+        android:id="@+id/day3"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="40dp"
+        android:text="3"
+        app:layout_constraintEnd_toStartOf="@+id/day4"
+        app:layout_constraintTop_toBottomOf="@+id/Image" />
+
+    <Button
+        android:id="@+id/day5"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="42dp"
+        android:text="5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day1" />
+
+    <Button
+        android:id="@+id/day6"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="42dp"
+        android:text="6"
+        app:layout_constraintStart_toEndOf="@+id/day5"
+        app:layout_constraintTop_toBottomOf="@+id/day2" />
+
+    <Button
+        android:id="@+id/day7"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="136dp"
+        android:text="7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

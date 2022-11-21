@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Myoga</string>
+    <string name="userName"> </string>
+    <string name="email"> </string>
+    <string name="userGender"> </string>
+    <string name="userAge"> </string>
+    <string name="userHeight"> </string>
+    <string name="userWeight"> </string>
+    <string name="InformUser">Tell us a little about yourself!</string>
+</resources>
